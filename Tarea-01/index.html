@@ -11,16 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     
     <style>
-        #d3 {
-            text-align: center;
-        }
-        
+
         #info {
             text-align:center;
-        }
-        
-        #contacto {
-            text-align: center;
         }
         
         #d1 {
@@ -41,12 +34,14 @@
         h1 {
             text-align: center;
         }
+        
     </style>
 
 </head>
 <body>
     <div>
-    <h1>
+    <!-- Etiqueta de encabezado: <h1> -->
+        <h1>
         <mark>
         Hola, soy Nicolás Sotelo 
         </mark>
@@ -54,6 +49,7 @@
 </div>
 
 <div>
+    <!-- Etiqueta para insertar imagén <img> -->
     <img id="img" src="./images/IMG-20211004-WA0010.jpeg" width="450" height="500" alt="Foto mia">
 </div>
 <div>
@@ -62,11 +58,11 @@
     </h2>
 </div>
 <div id="d1">
-    <!-- Etiqueta rara : <cite> -->
+    <!-- Etiqueta de lista : <ul> -->
     <ul>
-        <li>Nombre y Apellido:<cite> Nicolás Joaquin Sotelo</cite></li>
-        <li>Edad: <cite>18 años</cite></li>
-        <li>Correo: <cite>nicosotelo@protonmail.com</cite></li>
+        <li>Nombre y Apellido: Nicolás Joaquin Sotelo</li>
+        <li>Edad: 18 años</li>
+        <li>Correo: nicosotelo@protonmail.com</li>
     </ul>
 </div>
 <div>
@@ -75,30 +71,10 @@
     </h3>
 </div>
 <div>
+    <!-- Etiqueta para párrafo: <p> -->
     <p>
         Buenas, soy Nicolás, vivo en Buenos Aires Provincia y desde que tengo memoria me atrae el mundo de la programación. Gracias a una persona es que estoy acá, me animó a profundizar sobre este mundo. 
     </p>
-    <form>
-        <div id="d3">
-            <h3 id="contacto">Contacto</h3>
-        <form action="my-handling-form-page" method="post">
-            <ul>
-             <li>
-               <label for="name">Nombre:</label>
-               <input type="text" id="name" name="user_name">
-             </li>
-             <li>
-               <label for="mail">Correo electrónico:</label>
-               <input type="email" id="mail" name="user_mail">
-             </li>
-             <li>
-               <label for="msg">Mensaje:</label>
-               <textarea id="msg" name="user_message"></textarea>
-             </li>
-            </ul>
-            <input type="submit" id="enviar" name="send">
-           </form>
-        </div>   
 </div>
 </body>
 </html>
