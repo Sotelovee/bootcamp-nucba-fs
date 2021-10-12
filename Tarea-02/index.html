@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    
+    <style>
+        #d3 {
+            text-align: center;
+        }
+        
+        #info {
+            text-align:center;
+        }
+        
+        #contacto {
+            text-align: center;
+        }
+        
+        #d1 {
+            text-align: center;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 23px;
+        }
+        mark {
+            color: rgb(180, 32, 64);
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Etiquetas <div> -->
+    <div>
+    <h1>
+        <mark>
+        Hola, soy Nicolás Sotelo 
+        </mark>
+    </h1>
+</div>
+
+<div>
+    <img id="img" src="./images/IMG-20211004-WA0010.jpeg" width="450" height="500" alt="Foto mia">
+</div>
+<div>
+    <h2>
+        Sobre mi:
+    </h2>
+</div>
+<div id="d1">
+    <!-- Etiqueta rara : <cite> -->
+    <ul>
+        <li>Nombre y Apellido:<cite> Nicolás Joaquin Sotelo</cite></li>
+        <li>Edad: <cite>18 años</cite></li>
+        <li>Correo: <cite>nicosotelo@protonmail.com</cite></li>
+    </ul>
+</div>
+<div>
+    <h3 id="info">
+        Más sobre mi:
+    </h3>
+</div>
+<div>
+    <p>
+        Buenas, soy Nicolás, vivo en Buenos Aires Provincia y desde que tengo memoria me atrae el mundo de la programación. Gracias a una persona es que estoy acá, me animó a profundizar sobre este mundo. 
+    </p>
+    <form>
+        <!-- Contacto -->
+        <div id="d3">
+            <h3 id="contacto">Contacto</h3>
+        <form action="my-handling-form-page" method="post">
+            <ul>
+             <li>
+               <label for="name">Nombre:</label>
+               <input type="text" id="name" name="user_name">
+             </li>
+             <li>
+               <label for="mail">Correo electrónico:</label>
+               <input type="email" id="mail" name="user_mail">
+             </li>
+             <li>
+               <label for="msg">Mensaje:</label>
+               <textarea id="msg" name="user_message"></textarea>
+             </li>
+            </ul>
+            <input type="submit" id="enviar" name="send">
+           </form>
+        </div>   
+</div>
+</body>
+</html>
